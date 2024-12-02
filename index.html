@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio de Mariana Costa - Fotógrafa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="menu">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Mariana Costa</a>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Mariana Costa</h1>
+            <p class="slogan">"Capturando momentos inesquecíveis com a lente da emoção."</p>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="perfil">
+                <img src="mariana.jpg" alt="Mariana Costa" class="foto-perfil">
+                <div class="bio">
+                    <p>Sou Mariana Costa, fotógrafa especializada em moda, retratos e eventos. Com mais de 10 anos de experiência, minha missão é capturar a essência única de cada momento e transformá-lo em uma obra de arte.</p>
+                    <p>Minha paixão pela fotografia começou na adolescência, e desde então venho aprimorando minhas habilidades para contar histórias através de imagens. Acredito que cada clique deve transmitir uma sensação, uma emoção, e é isso que busco em cada projeto que realizo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="portfolio1.jpg" alt="Projeto 1">
+                    <h3>Fashion Shoot - Editorial de Moda</h3>
+                    <p>Editorial de moda para a coleção de inverno 2024, com foco em estilos urbanos e minimalistas.</p>
+                    <a href="#" class="ver-mais">Ver mais</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio2.jpg" alt="Projeto 2">
+                    <h3>Evento Corporativo - Conferência de Tecnologia</h3>
+                    <p>Cobertura fotográfica de um evento de grande porte, registrando momentos importantes.</p>
+                    <a href="#" class="ver-mais">Ver mais</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio3.jpg" alt="Projeto 3">
+                    <h3>Retratos Pessoais</h3>
+                    <p>Retratos autênticos que capturam a verdadeira essência das pessoas em um ambiente confortável.</p>
+                    <a href="#" class="ver-mais">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="section">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="servico">
+                <h3>Fotografia de Moda</h3>
+                <p>Criação de editoriais de moda para marcas, estilistas e lojas, com ênfase em conceito e estilo.</p>
+            </div>
+            <div class="servico">
+                <h3>Fotografia de Eventos</h3>
+                <p>Captura de momentos importantes em casamentos, aniversários, eventos corporativos e festas.</p>
+            </div>
+            <div class="servico">
+                <h3>Retratos Personalizados</h3>
+                <p>Fotos de retratos profissionais ou pessoais, com foco em expressar a verdadeira personalidade do cliente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="section">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <div class="depoimento">
+                <p>"A Mariana conseguiu captar a essência do meu casamento de uma forma única. As fotos ficaram lindas e me sinto grata por tê-la escolhido para o dia mais especial da minha vida!"</p>
+                <p><strong>Ana Luiza, noiva</strong></p>
+            </div>
+            <div class="depoimento">
+                <p>"Trabalhar com a Mariana foi uma experiência incrível. Ela tem um olhar apurado e conseguiu registrar todos os detalhes importantes do evento. Super recomendo!"</p>
+                <p><strong>Paulo Henrique, organizador de eventos</strong></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="envio-formulario.php" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contato-info">
+                <p><strong>Telefone:</strong> (21) 98765-4321</p>
+                <p><strong>E-mail:</strong> mariana.costa@email.com</p>
+                <p><strong>Redes sociais:</strong> <a href="https://www.instagram.com/marianacostaphoto">Instagram</a> | <a href="https://www.linkedin.com/in/marianacosta">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kayky Vici Fotografia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
